@@ -1,0 +1,14 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.delve.co/transcrypts
+url: https://trust.delve.co/transcrypts
+note: TransCrypts publishes a third-party-hosted trust center (Delve). The page is
+  bot-protected (HTTP 403 to automated fetch), so certifications below are only those
+  independently confirmed in public reporting; the live trust center may list more.
+certifications:
+- HIPAA
+evidence:
+- source: https://www.globenewswire.com/news-release/2025/10/08/3163196/0/en/TransCrypts-Raises-15M-Seed-Round-to-Combat-AI-Fraud-and-Redefine-Digital-Identity-Verification.html
+  keywords: [HIPAA certification]
+- source: https://trust.delve.co/transcrypts
+  keywords: [trust center]

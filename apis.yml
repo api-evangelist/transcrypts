@@ -1,8 +1,27 @@
 aid: transcrypts
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transcrypts.png
 name: TransCrypts
-description: 'TransCrypts is a company surfaced as a portfolio company of pantera-capital, techstars and
-  added to the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'TransCrypts is a blockchain-based identity and credential verification
+  platform that lets individuals own, encrypt, and share verified records — employment
+  and income history, background checks, and (with HIPAA certification) health and
+  education credentials — directly with employers, background checkers, and other verifiers.
+  Encrypted data is stored off-chain while cryptographic hashes are anchored on-chain,
+  so users can prove authenticity without exposing personal data. The company reports
+  5M+ verifications across 4M+ users and 450+ enterprise clients, and connects to HR
+  and payroll systems such as ADP, BambooHR, and Namely. It raised a $15M seed round
+  led by Pantera Capital, with Techstars, Lightspeed Faction, Alpha Edison, Motley
+  Fool Ventures, Mark Cuban, and Protocol Labs participating.'
 url: https://raw.githubusercontent.com/api-evangelist/transcrypts/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,16 +32,47 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Crypto
+- Blockchain
+- Identity
+- Verification
+- Credentials
+- Background Checks
+- Employment Verification
+- Self-Sovereign Data
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/transcrypts-domain-security.yml
 - type: Website
   url: https://www.transcrypts.com/
+- type: Pricing
+  url: https://www.transcrypts.com/pricing
+- type: Blog
+  url: https://www.transcrypts.com/news
+- type: Support
+  url: https://www.transcrypts.com/support-center
+- type: PrivacyPolicy
+  url: https://www.transcrypts.com/privacy-policy
+- type: TermsOfService
+  url: https://www.transcrypts.com/terms-of-service
+- type: Login
+  url: https://app.transcrypts.com/
+- type: TrustCenter
+  url: https://trust.delve.co/transcrypts
+- type: Compliance
+  url: https://trust.delve.co/transcrypts

@@ -1,0 +1,30 @@
+generated: '2026-07-21'
+method: probed
+source: curl https://<host>/.well-known/*
+note: No .well-known discovery documents are published. TransCrypts exposes no public
+  developer API surface; all probed paths returned 404. Recorded as honest none-result.
+hosts:
+- host: https://www.transcrypts.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.transcrypts.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
